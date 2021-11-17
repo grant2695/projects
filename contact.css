@@ -1,0 +1,28 @@
+.container {
+    font-family: 'Dancing Script', cursive;
+      display: flex;
+      width: 100%;
+      flex-wrap: row wrap;
+      justify-content: space-between;
+      column-gap: 10px;
+    }
+    
+    .item {
+      
+      
+      margin-bottom: 2%;
+    }
+    
+    
+    .container >.item img{
+        width: 100%;
+       
+       
+    
+    }
+    
+    .align{
+        
+        align-self: center;
+        background-color: #E8CEBF;
+    }    
