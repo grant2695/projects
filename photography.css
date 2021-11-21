@@ -1,19 +1,9 @@
-.mynav{
-    width: 100%;
-    background-color: transparent !important;
-    z-index: 999;
-    font-weight: bold;
-    
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-}
-.my-carousel{
-    top: -60px;
-}
-.navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,.9);
-}
-footer{
-    padding: 20px;
-    background-color: #266150;
-    text-align: center;
-}
+
+
+
+
+

@@ -4,7 +4,7 @@
       width: 100%;
       flex-wrap: row wrap;
       justify-content: space-between;
-      column-gap: 10px;
+      column-gap: 9px;
     }
     
     .item {
@@ -14,15 +14,27 @@
     }
     
     
-    .container >.item img{
-        width: 100%;
-       
-       
-    
-    }
+   
     
     .align{
         
         align-self: center;
-        background-color: #E8CEBF;
+        
     }    
+    .line-height{
+        line-height: 12px;
+    }
+    .navbar-brand{
+      margin-right: 350px !important;
+      font-family: 'Dancing Script', cursive;
+      color:cyan !important;
+    }
+    .padding-left{
+      padding-left: 20px;
+    }
+    footer{
+      font-family: 'Dancing Script', cursive;
+    }
+    @tailwind base;
+@tailwind components;
+@tailwind utilities;
