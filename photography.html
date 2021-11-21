@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oleo+Script&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="contact.css">
   <style>
     .navbar-brand{
       margin-right: 350px;
@@ -29,17 +29,15 @@
       margin-bottom: 10px;
     }
     
-    .my-carousel{
-      top: 5px;
-      height: auto;
-    }
+    
     
     .container {
     font-family: 'Dancing Script', cursive;
       display: flex;
       width: 100%;
       flex-wrap: row wrap;
-      justify-content: space-between;
+      justify-content: space-evenly;
+      align-content: space-between;
       column-gap: 9px;
     }
     
@@ -50,125 +48,127 @@
     }
     
     
-    .container >.item img{
-        width: 100%;
+   
+        
+       
        
        
     
-    }
+    
     .padding-left{
     padding-left: 20px;
   }
-  .brand{
+  .navbar-brand{
+    color:cyan !important;
     font-family: 'Dancing Script', cursive;
-      color:cyan !important;
+      
       padding-top: 20px;
 
   }
   
-   .container1{
-     height: 5px;
-   }
+   
     
-   .back-ground{
-      
-    width: 100%;
-max-height: 400px;
-padding: 5px 10px;
-background: url("pedestrians-1853552_1920.jpg");
-background-size: 100% 100%;
-
-     
-      
-    }
-    .banner-image{
-      background: url(hyacinths-1403653_1920.jpg);
-    }
-  
-
-
+   
+    
+    
+    .noHover{
+    pointer-events: none;
+}
+h6{
+  align-self: center;
+  justify-self: flex-end;
+}
+.collections{
+  justify-self: flex-end;
+}
     
   </style>
 
 
 </head>
 
-<body class="bg-gradient-to-r from-purple-50 to-purple-100 p-10">
+<body class=" p-10  bg-gradient-to-r from-purple-50 to-purple-100">
  
-
- 
-    <nav class="mynav navbar navbar-expand-lg navbar-light rounded-t-xl  bg-gradient-to-r from-purple-50 to-purple-100 p-10">
-        <a class="navbar-brand" href="photography.html">Jamie's photography</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  
+  <nav class="mynav navbar navbar-expand-lg navbar-light rounded-t-xl   bg-gradient-to-r from-purple-50 to-purple-100 p-10 ">
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="photography.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item padding-left">
-              <a class="nav-link" href="contact.html">About</a>
-            </li>
-            <li class="nav-item dropdown padding-left">
-              <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Collections
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="grid.html">Architecture</a>
-                <a class="dropdown-item" href="#">Nature</a>
-                
-                <a class="dropdown-item" href="#">People</a>
-              </div>
-            </li>
-            <li class="nav-item padding-left">
-              <a class="nav-link booking" href="contactus.html">Contact Me</a>
-            </li>
-          </ul>
-         
-            
-        </div>
+    <a class="navbar-brand" href="photography.html">Jamie's photography</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="photography.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item padding-left">
+            <a class="nav-link" href="contact.html">About</a>
+          </li>
+          <li class="nav-item dropdown padding-left">
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Collections
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="grid.html">Architecture</a>
+              <a class="dropdown-item" href="nature.html">Nature</a>
+              <a class="dropdown-item" href="animals.html">Animals</a>
+              <a class="dropdown-item" href="people.html">People</a>
+            </div>
+          </li>
+          <li class="nav-item padding-left">
+            <a class="nav-link booking" href="contactus.html">Contact Me</a>
+          </li>
+        </ul>
+       
           
-        </div>
-    </nav>
+      </div>
+        
+      </div>
+  </nav>
       
-   
+    <div class="w-200 sm:w-1/2 md:w-1 lg:w-full xl: w-full h-1/2 mb-4 noHover ">
+      <img src="reflection-2878529.jpg" alt="">
+      </div>
     <main>
-     
       
      
       
      
-     <div class="overflow-hidden bg-gradient-to-r from-purple-50 to-purple-100 p-">
+      
+     
+     <div class=" bg-gradient-to-r from-purple-50 to-purple-100 ">
       
       <h1 class="brand text-4xl !important">Jamie's Photography</h1>
-<h2 class="text-3xl text-center p-10 font-mono">Freelance Photography Done Right!</h2>
-<p class="text-center">Hire me to capture the moments for you.</p>
+<h2 class="text-3xl text-center p-10 font-mono">Freelance Photography Captured With Style!</h2>
+<p class="text-center"><i>Hire me to capture the moments for you.</i></p>
 <div class="rounded-t-xl overflow-hidden overflow-hidden bg-gradient-to-r from-purple-50 to-purple-100 p-10">
 <div class="flex flex-wrap gap-4 justify-center p-10">
-  <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl: w-1/3 mb-4 ">
-      <img src="eiffel-tower-3349075_640.jpg" alt="">
+  <div class=" w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-4 ">
+    <a href="people.html"> <img src="beanie-2562646_1920.jpg" alt=""></a>   
+       <h3 class="text-center">People</h3>
+       <p class="text-center font-mono"><a href="nature.html">Explore this collection</a></p>
+   </div>
+     
+      
+
+  
+  <div class=" w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-4 ">
+   <a href="nature.html"> <img src="sea-6651168.jpg" alt=""></a>   
+      <h3 class="text-center">Nature</h3>
+      <p class="text-center font-mono"><a href="nature.html">Explore this collection</a></p>
   </div>
-  <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-4 ">
-   <a href="grid.html"> <img src="sea-6651168.jpg" alt=""></a>   
-      <h3 class="text-center">Nature Photography</h3>
+  
+  <div class=" w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 "> 
+    <a href="grid.html"><img src="building-102840_640.jpg" alt=""></a>
+      <h4 class="text-center">Architecture</h4>
       <p class="text-center font-mono"><a href="grid.html">Explore this collection</a></p>
   </div>
-  <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-4 ">
-      <img src="cafe-3537801_640.jpg" alt="">
-  </div>
-  <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-4"> 
-      <img src="building-102840_640.jpg" alt="">
-      <h4 class="text-center">Architectural Photography</h4>
+  <div class=" w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 "> 
+    <a href="animals.html"><img src="iceland-1979445_1920.jpg" alt=""></a>
+      <h4 class="text-center">Animals</h4>
       <p class="text-center font-mono"><a href="grid.html">Explore this collection</a></p>
-  </div>
-  <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-4 ">
-      <img src="" alt="">
-  </div>
-  <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-4">
-      <img src="" alt="">
-  </div>
+  
 </div>
       </div>
 
@@ -179,9 +179,23 @@ background-size: 100% 100%;
       
 </main>
 
-<div class="container mx-auto px-4 md:container md:mx-auto">
+<div class="  container mx-auto px-4 md:container md:mx-auto ">
+  
+  <footer>
+    
+   <h6><i> © Jamie's photography 2021</i></h6> 
+    <ul class="text-center">
+      <li class="display inline p-2"><a href="contact.html">About</a></li>
+      <li class="display inline p-2"><a href="contactus.html">Contact</a></li>
+      <ul class="collections"><h6>Collections</h6>
+        <li><a href="nature.html">Nature</a></li>
+        <li><a href="grid.html">Architecture</a></li>
+        <li><a href="people.html">People</a></li></ul>
+        <li><a href="animals.html">Animals</a></li>
+    </ul>
+ 
+  </footer>
 
-  <footer><i> © Jamie's photography 2021</i></footer>
  </div>
 
 

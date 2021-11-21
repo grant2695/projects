@@ -8,19 +8,18 @@
     }
     
     .item {
-      
+      font-family: 'Dancing Script', cursive;
       
       margin-bottom: 2%;
     }
     
-    
+    .align{
+      align-self: center;
+      flex: row-wrap
+    }
    
     
-    .align{
         
-        align-self: center;
-        
-    }    
     .line-height{
         line-height: 12px;
     }
@@ -35,6 +34,27 @@
     footer{
       font-family: 'Dancing Script', cursive;
     }
+  }
+  img {
+  transition:transform 0.25s ease;
+}
+
+img:hover {
+  -webkit-transform:scale(1.2); /* or some other value */
+  transform:scale(1.2);
+}
+.nav-item:hover{
+   
+  
+  
+  text-decoration-line: underline;
+  
+  
+}
+.noHover{
+  pointer-events: none;
+}
+
     @tailwind base;
 @tailwind components;
 @tailwind utilities;
