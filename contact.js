@@ -26,4 +26,5 @@ function validateForm() {
         return false;
     }
     document.querySelector('.status').innerHTML = "Sending...";
-  }
+};
+  
