@@ -6,7 +6,9 @@
       justify-content: space-between;
       column-gap: 9px;
     }
-    
+    .Dancing{
+      font-family: 'Dancing Script', cursive;
+    }
     .item {
       font-family: 'Dancing Script', cursive;
       
@@ -26,7 +28,7 @@
     .navbar-brand{
       margin-right: 350px !important;
       font-family: 'Dancing Script', cursive;
-      color:cyan !important;
+      color:#ff6978!important;
     }
     .padding-left{
       padding-left: 20px;
